@@ -1,11 +1,11 @@
 ### Procedure
 Hardware Setup-
-* So, first of all, we should use a two terminal push button rather than a four terminal push button. This won't change anything. 
+* We will be using two terminal push button rather than a four terminal push button.
 * Connect one wire between Raspberry Pi’s Physical Pin 16 (GPI023).
 * Connect another wire between Raspberry Pi’s GND.
 * As an output device, a 5mm LED is utilized. The Raspberry Pi's Physical Pin 18 (GPIO24) is linked to the anode of the LED (long lead). 
 * The terminal of a 100 resistor is connected to the cathode (short lead) of an LED.
-* GND is linked to the resistor's other terminal. 
+* GND is linked to the resistor's other terminal.
 Software Setup-
 Control the push button for turning on the LED with Python 3 on Raspberry Pi OS –
 * After the hardware and software have been set up correctly, pressing the push button will cause the Raspberry Pi running Python 3 to turn on the LED. The LED will be turned on for two seconds before being turned off using this software.
