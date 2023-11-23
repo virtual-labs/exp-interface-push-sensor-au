@@ -1,18 +1,20 @@
 ### Procedure
-Hardware Setup-
-* We will be using two terminal push button rather than a four terminal push button.
-* Connect one wire between Raspberry Pi’s Physical Pin 16 (GPI023).
-* Connect another wire between Raspberry Pi’s GND.
-* As an output device, a 5mm LED is utilized. The Raspberry Pi's Physical Pin 18 (GPIO24) is linked to the anode of the LED (long lead). 
-* The terminal of a 100 resistor is connected to the cathode (short lead) of an LED.
-* GND is linked to the resistor's other terminal.
-Software Setup-
-Control the push button for turning on the LED with Python 3 on Raspberry Pi OS –
-* After the hardware and software have been set up correctly, pressing the push button will cause the Raspberry Pi running Python 3 to turn on the LED. The LED will be turned on for two seconds before being turned off using this software.
-* To control all GPIOs on the Raspberry Pi via the GPIO header, we first import the RPi.GPIO Python module. 
-* The Raspberry Pi initializes the LED Pin as an output and the Button Pin as an input with an internal pull-up when the Python script is executed.
-* Now, it waits for the Input pin to change state, which only occurs when the button is pressed. Here we have also included the time module for 0.2 seconds.
-* Pushing the button causes Raspberry Pi to detect a LOW on the associated pin, which turns on the LED.
+Hardware Setup
+
+* Connect any GPIO pin to any of the pins of the button.
+* Connect the other pin of the button to any of the GND pins of the Rasberry Pi.
+* Make a connection between Rasberry Pi and Led's anode pin via any of the GPIO pins. 
+  * Double-click on any of the GPIO pins to start wiring.
+  * Make a clear path till the anode of the Led pin.
+  * Double-click on the anode of the led pin to complete the connection            
+* The pin requires low voltage so put a resistor between the Rasberry Pi and Led
+  * Double-click on the cathode to start wiring between the resistor and led pin.
+  * Choose any of the resistor pins to complete the wiring
+* Connect the other resistor's pin to any of the GND pins of Rasberry Pi 
+
+
+#### The code section can be opened by clicking the **CODE** button on the right upper side of the simulation area
+_Enter the GPIO pin number of the button and led to the code section_
 
 Python Code -
 
