@@ -2,15 +2,15 @@
 Hardware Setup
 
 * Connect any GPIO pin to any of the pins of the button.
-* Connect the other pin of the button to any of the GND pins of the Rasberry Pi.
-* Make a connection between Rasberry Pi and Led's anode pin via any of the GPIO pins. 
+* Connect the other pin of the button to any of the GND pins of the Raspberry Pi.
+* Make a connection between Raspberry Pi and Led's anode pin via any of the GPIO pins. 
   * Double-click on any of the GPIO pins to start wiring.
   * Make a clear path till the anode of the Led pin.
   * Double-click on the anode of the led pin to complete the connection            
-* The pin requires low voltage so put a resistor between the Rasberry Pi and Led
+* The pin requires low voltage so put a resistor between the Raspberry Pi and Led
   * Double-click on the cathode to start wiring between the resistor and led pin.
   * Choose any of the resistor pins to complete the wiring
-* Connect the other resistor's pin to any of the GND pins of Rasberry Pi 
+* Connect the other resistor's pin to any of the GND pins of Raspberry Pi 
 
 
 #### The code section can be opened by clicking the **CODE** button on the right upper side of the simulation area

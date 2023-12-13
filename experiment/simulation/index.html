@@ -8,8 +8,8 @@
   
 
   <title>Vite App</title>
-  <script type="module" crossorigin src="./assets/index-c2a629cc.js"></script>
-  <link rel="stylesheet" href="./assets/index-92fd2ffc.css">
+  <script type="module" crossorigin src="./js/index-0e706231.js"></script>
+  <link rel="stylesheet" href="./css/index-13114df7.css">
 </head>
 
 <body class="drawer drawer-end container-fluid h-full bg-base-100">
@@ -18,22 +18,21 @@
   <div class="drawer-content">
 
     <!-- ------------- NAV BAR  AREA--------------------- -->
-    <div class="text-center bg-secondary p-4 rounded-b-xl">
-      <button class="button float-left btn btn-warning btn-md w-40" onClick="window.location.href=window.location.href" >RESET</button>
-      <span class="text-black font-serif font-light text-4xl">Raspberry Pi Button/IR/LDR LED Control</span>
-      <label for="my-drawer-4" class="drawer-button btn btn-primary btn-md float-right w-40">&#x2630; CODE</label>
-    </div>
+   
     <!-- --------------NAVBAR AREA  ENDS -------------------->
 
     <!-- Information Area -->
     <div class="flex flex-col sm:flex-row ">
-      <div class="w-1/3 m-5 hidden-scroll sm:block bg-base-200 p-6 ">     
+      <div class="w-1/3 m-5 hidden-scroll sm:block bg-base-200 p-6 ">
+        <div id="headline">
+        
+        </div>
 
         <div id="theory">
-          <h2 class="text-xl font-bold mt-8">General Instructions</h2>
+          <h2 class="text-xl font-bold mt-8">Instructions</h2>
           <ul class="list-disc ml-8 mt-4" >
             <li>Click on the components to start interacting it with in the connection area</li>
-            <li>Hover over the rasberrypi connections to get informations about various connections pin </li>
+            <li>Hover over the raspberry Pi connections to get informations about various connections pin </li>
             <li>Double click on various connections points to make connections  </li>
             <li>Double click on the empty space in the connection area to extend and bend wire connections  </li>
           </ul>
@@ -41,23 +40,19 @@
            <!-- Procedure -->
            <h2 class="text-xl font-bold mt-8">How to Connect</h2>
            <div class="mt-4">
-             <img src="./assets/connection_diagram_exp3.jpeg" alt="connetion_diagram">
+             <img src="./images/diagram.jpeg" alt="connetion_diagram">
            </div>
            <ol class="pl-5 mt-5 mb-4 space-y-1 list-decimal list-inside text-xl">
-             <li> Connect any GPIO pin to any of the pins of the button.</li>
-             <li>  Connect the other pin of the button to any of the GND pins of the Rasberry Pi.</li>
-             <li>  Make a connection between Rasberry Pi and Led's anode pin via any of the GPIO pins. </li>
-               <ul class="list-disc ml-8 mt-4">
-                 <li>Double-click on any of the GPIO pins to start wiring.</li>
-                 <li>Make a clear path till the anode of the Led pin.</li>
-                 <li>Double-click on the anode of the led pin to complete the connection</li>
-               </ul>
-             <li>The pin requires low voltage so put a resistor between the Rasberry Pi and Led</li>
-               <ul class="list-disc ml-8 mt-4">
-                 <li>Double-click on the cathode to start wiring between the resistor and led pin</li>
-                 <li>Choose any of the resistor pins to complete the wiring</li>
-               </ul>
-             <li>Connect the other resistor's pin to any of the GND pins of Rasberry Pi</li>
+             <li> Connect any of the Button pin to any of the GPIO pin of Raspberry Pi </li>
+             <li>  Connect the other pin of the button to any of the GND pins of the Raspberry Pi.</li>
+             <li>  Connect any of the GPIO pins of Raspberry Pi to Led's anode pin . </li>
+              
+              
+             <li>The pin requires low voltage,connect any of the resistor pin to Led's cathod</li>
+              
+              
+          
+             <li>Connect the other resistor's pin to any of the GND pins of Raspberry Pi</li>
              <li>Enter the GPIO pin number of the button and led to the code section. The code section can be opened by clicking the Code button on the right upper side of the simulation area.</li>
            </ol>
 
@@ -78,24 +73,41 @@
         <div class="h-full">
 
           <div id="components" class="components">
-
+            <label
+            for="my-drawer-4"
+            class="drawer-button btn btn-primary btn-md float-right w-40 m-4"
+            >&#x2630; CODE</label
+          >
+            <button
+              class="button float-right btn btn-warning btn-md w-40 m-4"
+              onClick="window.location.href=window.location.href"
+            >
+              RESET
+            </button>
+            <button
+            id="undoButton"
+            class=" float-right btn  btn-md w-40 m-4"
+           style="background-color: #3498db; border: none;"
+          >
+            UNDO
+          </button>
             <div id="rasberryPi" class="component bg-slate-200 rounded-lg text-center">
-              <img src="./assets/pi3dirk.svg" class="w-20 h-20">
-              <span class="card-title">RasberryPi</span>
+              <img src="./images/pi3dirk-5f8e35c9.svg" class="w-20 h-20">
+              <span class="card-title">Raspberry Pi</span>
             </div>
 
             <div id="ledlight" class="component bg-slate-200 rounded-lg text-center">
-              <img src="./assets/led.svg" class="w-20 h-20">
+              <img src="./images/led-d7ea4ae5.svg" class="w-20 h-20">
               <span class="card-title">Led bulb</span>
             </div>
 
             <div id="resistor" class="component bg-slate-200 rounded-lg text-center">
-              <img src="./assets/resistor.svg" class="w-20 h-20">
+              <img src="./images/resistor-93689cb1.svg" class="w-20 h-20">
               <span class="card-title">Resistor</span>
             </div>
 
             <div id="pushButton" class="component bg-slate-200 rounded-lg text-center">
-              <img src="./assets/pushButton.svg" class="w-20 h-20">
+              <img src="./images/pushButton-a8ca73b3.svg" class="w-20 h-20">
               <span class="card-title">Push Button</span>
             </div>
 
