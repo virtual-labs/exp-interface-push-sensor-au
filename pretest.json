@@ -1,0 +1,42 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which one of the following is a microcomputer?",
+      "answers": {
+        "a": "Arduino",
+        "b": "Raspberry Pi",
+        "c": "Both a and b",
+        "d": "None of the above"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The raspberry pi has _______ output and input ports",
+      "answers": {
+        "a": "Digital I/O",
+        "b": "Analog Inputs",
+        "c": "Both a and b",
+        "d": "None of the above"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In how many volts does raspberry pi runs?"
+      ,
+      "answers": {
+        "a": "1V",
+        "b": "2V",
+        "c": "5V",
+        "d": "12V"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}

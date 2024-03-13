@@ -1,0 +1,27 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Does Raspberry PI need external hardware?",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How many USB ports are present in Raspberry Pi 3?",
+      "answers": {
+        "a": "5",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}
