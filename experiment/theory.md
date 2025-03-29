@@ -1,7 +1,9 @@
 ### Theory
 
-We'll demonstrate how to attach a basic push button to the Raspberry Pi and how to accept input from the device's GPIO pins. It's very simple to connect a push button to a Raspberry Pi, and the experiments goal is to comprehend the ideas underlying the interface. The Raspberry Pi's GPIO pins are a crucial component since they allow the device to communicate with external physical components like motors, buttons, and LEDs.  
-Components Required
+This experiment demonstrates the process of interfacing a basic push button with a Raspberry Pi and utilizing its General Purpose Input/Output (GPIO) pins to receive input signals. Connecting a push button to a Raspberry Pi is straightforward, and the objective of this experiment is to explore and understand the principles underlying hardware interfacing. The GPIO pins are a critical feature of the Raspberry Pi, enabling seamless communication between the device and external hardware components such as buttons, LEDs, motors, and sensors.
+
+The Raspberry Pi leverages its GPIO pins to interact with the physical world, functioning as programmable switches that can be configured as inputs (to detect external signals) or outputs (to control connected devices). By integrating a push button and an LED in this setup, the experiment illustrates fundamental concepts of digital input processing and output control, laying the groundwork for more complex applications in embedded systems and automation.
+
 * Raspberry Pi
 
 * Push Button
@@ -16,5 +18,11 @@ Components Required
 
 * Power Supply
 
-Raspberry Pi - A single-board computer the size of a credit card called the Raspberry Pi enables users of all computing skills to experiment with and learn about computation. Other pieces of peripheral gear, including a keyboard, mouse, and monitor, can be connected to the minicomputer. You will require an SD card placed into the designated location in order to configure the Raspberry computer. The operating system should be placed on the SD card, which is necessary for the machine to boot. Linux OS is compatible with Raspberry computers.  
-The Raspberry Pi's row of GPIO pins at the top edge of the board is one of its strong points. General-Purpose Input/Output, or GPIO. The Raspberry Pi connects to the outside world physically using these pins. You can think of them as switches at their most basic level, which you can turn on or off (input), or which the Pi can turn on or off (output). The Raspberry Pi runs 5V volts. The Raspberry Pi can monitor and control the outside world by connecting to electronic circuits via the GPIO pins. The Pi can operate motors, turn LEDs on and off, and do a lot of other things. It can also determine the temperature, light, and whether a switch has been touched. The Raspberry Pi has 40 pins (26 pins on early variants), and they serve a variety of roles. Knowing what each pin is used for is much easier if you have a RasPiO pin label. Make sure your pin label is positioned so that the keyring hole is directed outward toward the USB ports.
+Raspberry Pi -The Raspberry Pi is a credit-card-sized single-board computer designed to promote computational experimentation and education for users of all skill levels. It supports peripheral devices such as a keyboard, mouse, and monitor, transforming it into a fully functional computing platform. To operate, the Raspberry Pi requires a micro SD card inserted into its designated slot, with an operating system (typically a Linux distribution like Raspberry Pi OS) installed on the card to facilitate booting.
+
+One of the Raspberry Pi’s standout features is its row of GPIO pins, located along the top edge of the board. GPIO, or General Purpose Input/Output, refers to these versatile pins that enable physical interaction with external electronic components. Operating at 3.3V logic levels (though the board is powered by 5V), the GPIO pins can be programmed to serve as inputs (e.g., detecting a button press) or outputs (e.g., activating an LED). This capability allows the Raspberry Pi to monitor environmental conditions—such as light intensity, temperature, or switch states—and control devices like motors, LEDs, and relays.
+
+
+
+
+

@@ -2,41 +2,60 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Which one of the following is a microcomputer?",
+      "question": "What is the primary function of GPIO pins on a Raspberry Pi?",
       "answers": {
-        "a": "Arduino",
-        "b": "Raspberry Pi",
-        "c": "Both a and b",
-        "d": "None of the above"
+        "a": "To provide power to the board",
+        "b": "To enable communication with external hardware components",
+        "c": "To store the operating system",
+        "d": "To connect to a monitor"
       },
-      
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "The raspberry pi has _______ output and input ports",
+      "question": "Which component in the experiment provides a visual indication of the system's state?",
       "answers": {
-        "a": "Digital I/O",
-        "b": "Analog Inputs",
-        "c": "Both a and b",
-        "d": "None of the above"
+        "a": "Push Button",
+        "b": "100Ω Resistor",
+        "c": "5mm LED",
+        "d": "Mini Breadboard"
       },
-      
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "In how many volts does raspberry pi runs?"
-      ,
+      "question": "What is the purpose of the 100Ω resistor in the circuit?",
       "answers": {
-        "a": "1V",
-        "b": "2V",
-        "c": "5V",
-        "d": "12V"
+        "a": "To limit current to the LED",
+        "b": "To increase the voltage to the Raspberry Pi",
+        "c": "To act as a switch",
+        "d": "To connect the push button to ground"
       },
-      
-      "correctAnswer": "c",
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "In the experiment, what triggers the LED to turn ON?",
+      "answers": {
+        "a": "Pressing the push button or sensor detection",
+        "b": "Connecting the power supply",
+        "c": "Inserting the micro SD card",
+        "d": "Attaching a monitor to the Raspberry Pi"
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
+    },
+   
+    {
+      "question": "What role does the push button play in the experiment?",
+      "answers": {
+        "a": "It serves as an output device to control the LED",
+        "b": "It provides power to the Raspberry Pi",
+        "c": "It acts as an input device to send a signal to the GPIO pins",
+        "d": "It regulates the voltage across the circuit"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
     }
   ]
 }
