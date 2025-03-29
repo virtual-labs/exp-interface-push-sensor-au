@@ -13,8 +13,7 @@ Hardware Setup
 * Connect the other resistor pin to any of the GND pins of the Raspberry Pi.
 * Click the push button to test the circuit and turn on the LED.
 
-
-#### The code section can be opened by clicking the **CODE** button on the right upper side of the simulation area
+ The code section can be opened by clicking the **CODE** button on the right upper side of the simulation area
 _Enter the GPIO pin number of the button and led to the code section_
 
 Python Code -

@@ -1,2 +1,1 @@
-## Raspberry Pi with Push Button LED Blink Program
-
+## Raspberry Pi Push Button LED Blink Program
