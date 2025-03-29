@@ -1,0 +1,3 @@
+### Aim of the experiment
+
+To interface a push button  with a Raspberry Pi and write a Python program to turn ON an LED when the push button is pressed or at sensor detection, this experiment serves as a foundation for applications such as home automation (example: activating lights when motion is detected), security systems (example: triggering alerts based on sensor input), and environmental monitoring (example: adjusting lighting based on ambient light levels).
