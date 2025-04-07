@@ -2,26 +2,68 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Does Raspberry PI need external hardware?",
+      "question": "Does Raspberry Pi require external hardware for operation?",
       "answers": {
         "a": "True",
         "b": "False"
       },
-      
       "correctAnswer": "b",
-      "difficulty": "beginner"
+      "difficulty": "Beginner"
     },
     {
-      "question": "How many USB ports are present in Raspberry Pi 3?",
+      "question": "How many USB ports are present on the Raspberry Pi 3?",
       "answers": {
         "a": "5",
         "b": "2",
         "c": "3",
         "d": "4"
       },
-      
       "correctAnswer": "d",
-      "difficulty": "beginner"
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What is the default operating system used with the Raspberry Pi?",
+      "answers": {
+        "a": "Windows 10",
+        "b": "macOS",
+        "c": "Raspberry Pi OS (formerly Raspbian)",
+        "d": "Linux Mint"
+      },
+      "correctAnswer": "c",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Which language is commonly used for programming on the Raspberry Pi?",
+      "answers": {
+        "a": "JavaScript",
+        "b": "Python",
+        "c": "C++",
+        "d": "Java"
+      },
+      "correctAnswer": "b",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Which of the following components is typically used for display output on the Raspberry Pi?",
+      "answers": {
+        "a": "HDMI",
+        "b": "VGA",
+        "c": "DisplayPort",
+        "d": "DVI"
+      },
+      "correctAnswer": "a",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What is the GPIO header used for on the Raspberry Pi?",
+      "answers": {
+        "a": "To connect USB devices",
+        "b": "To connect sensors and external components",
+        "c": "To connect a monitor",
+        "d": "To connect external storage devices"
+      },
+      "correctAnswer": "b",
+      "difficulty": "Intermediate"
     }
   ]
 }
