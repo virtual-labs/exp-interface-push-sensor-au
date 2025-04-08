@@ -17,12 +17,13 @@ A push button is a simple mechanical switch that can either be open (not pressed
 
 <div><img src="./images/pushButton.jpg" alt="re-entrance" width='30%'></div>
 
-### 3. **LED (Light Emitting Diode)**
+#### 3. **LED (Light Emitting Diode)**
 An LED is a semiconductor device that emits light when current flows through it. In this experiment, the LED will indicate the state of the button press, turning on when the button is pressed and off when it is released.
+<div><img src="./images/leds.png" alt="re-entrance" width='30%'></div>
 
 #### 4. **Resistor**
 A resistor is used to limit the current flowing through the LED, preventing damage to the LED and the Raspberry Pi’s GPIO pins. The **100Ω resistor** ensures the LED receives a safe amount of current.
-<div><img src="./images/pin.png" alt="re-entrance" width='40%'></div>
+<div><img src="./images/pin.png" alt="re-entrance" width='20%'></div>
 
 
 #### Circuit Connections
