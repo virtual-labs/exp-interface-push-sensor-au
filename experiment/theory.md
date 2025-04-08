@@ -14,7 +14,9 @@ The Raspberry Pi is a small, versatile computer designed for learning and protot
 
 #### 2. **Push Button**
 A push button is a simple mechanical switch that can either be open (not pressed) or closed (pressed). When pressed, it completes the circuit and sends a signal to the Raspberry Pi’s GPIO input pin.
+
 <div><img src="./images/pushButton.jpg" alt="re-entrance" width='30%'></div>
+
 ### 3. **LED (Light Emitting Diode)**
 An LED is a semiconductor device that emits light when current flows through it. In this experiment, the LED will indicate the state of the button press, turning on when the button is pressed and off when it is released.
 
