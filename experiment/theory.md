@@ -5,7 +5,7 @@ The Raspberry Pi is a powerful, compact single-board computer that allows users 
 
 The experiment introduces the fundamental concepts of digital input/output, GPIO pin configuration, and simple Python programming to handle button states. This setup forms the basis for building more complex embedded systems and automation projects using the Raspberry Pi.
 
-#### Components Required
+#### Components 
 
 #### 1. **Raspberry Pi**
 The Raspberry Pi is a small, versatile computer designed for learning and prototyping. It features **GPIO pins** that allow it to interface with various electronic components. For this experiment, you will use the GPIO pins to detect button presses and control an LED.
@@ -14,8 +14,7 @@ The Raspberry Pi is a small, versatile computer designed for learning and protot
 
 #### 2. **Push Button**
 A push button is a simple mechanical switch that can either be open (not pressed) or closed (pressed). When pressed, it completes the circuit and sends a signal to the Raspberry Pi’s GPIO input pin.
-
-<div><img src="./images/pushButton.jpg" alt="re-entrance" width='30%'></div>
+<div><img src="./images/PushButton.jpg" alt="re-entrance" width='30%'></div>
 
 #### 3. **LED (Light Emitting Diode)**
 An LED is a semiconductor device that emits light when current flows through it. In this experiment, the LED will indicate the state of the button press, turning on when the button is pressed and off when it is released.
