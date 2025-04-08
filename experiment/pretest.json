@@ -10,7 +10,7 @@
         "d": "To connect to a monitor"
       },
       "correctAnswer": "b",
-      "difficulty": "beginner"
+      "difficulty": "Beginner"
     },
     {
       "question": "Which component in the experiment provides a visual indication of the system's state?",
@@ -21,7 +21,7 @@
         "d": "Mini Breadboard"
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "Beginner"
     },
     {
       "question": "What is the purpose of the 100Ω resistor in the circuit?",
@@ -32,7 +32,7 @@
         "d": "To connect the push button to ground"
       },
       "correctAnswer": "a",
-      "difficulty": "intermediate"
+      "difficulty": "Intermediate"
     },
     {
       "question": "In the experiment, what triggers the LED to turn ON?",
@@ -43,9 +43,8 @@
         "d": "Attaching a monitor to the Raspberry Pi"
       },
       "correctAnswer": "a",
-      "difficulty": "beginner"
+      "difficulty": "Beginner"
     },
-   
     {
       "question": "What role does the push button play in the experiment?",
       "answers": {
@@ -55,7 +54,19 @@
         "d": "It regulates the voltage across the circuit"
       },
       "correctAnswer": "c",
-      "difficulty": "intermediate"
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Which programming language is used to control the GPIO pins in the Raspberry Pi?",
+      "answers": {
+        "a": "Java",
+        "b": "C++",
+        "c": "Python",
+        "d": "Ruby"
+      },
+      "correctAnswer": "c",
+      "difficulty": "Beginner"
     }
   ]
 }
+
