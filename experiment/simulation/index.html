@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Vite App</title>
-  <script type="module" crossorigin src="js/index-8accb4ad.js"></script>
-  <link rel="stylesheet" href="css/index-33b044db.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <title>Raspberry Pi LED Button Experiment</title>
+  <script type="module" crossorigin src="js/index-3ad73ff0.js"></script>
+  <link rel="stylesheet" href="css/index-11c6bc0d.css">
 </head>
-
-<body class="drawer drawer-end container-fluid h-full bg-base-100">
+<body class="drawer drawer-end container-fluid h-full">
   <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
   <div class="drawer-content">
     <!-- Information Area -->
@@ -21,9 +20,9 @@
         <div id="theory">
           <h2 class="text-xl font-bold mt-8">Instructions</h2>
           <ul class="list-disc ml-8 mt-4">
-            <li>Click on the components to start interacting it with in the connection area</li>
-            <li>Hover over the Raspberry Pi connections to get informations about various connections pin</li>
-            <li>Double click on various connections points to make connections</li>
+            <li>Click on the components to start interacting with them in the connection area</li>
+            <li>Hover over the Raspberry Pi connections to get information about various connection pins</li>
+            <li>Double click on various connection points to make connections</li>
             <li>Double click on the empty space in the connection area to extend and bend wire connections</li>
           </ul>
           <!-- Procedure -->
@@ -46,14 +45,13 @@
           </div>
         </div>
       </div>
-
       <!-- Components -->
       <div class="sm:w-2/3 h-screen">
         <div class="h-full">
           <div id="components" class="components">
             <label for="my-drawer-4" class="drawer-button btn btn-primary btn-md float-right w-40 m-4">☰ CODE</label>
             <button class="button float-right btn btn-warning btn-md w-40 m-4" onClick="window.location.href=window.location.href">RESET</button>
-            <button id="undoButton" class="float-right btn btn-md w-40 m-4" style="background-color: #3498db; border: none;">UNDO</button>
+            <button id="undoButton" class="float-right btn btn-md w-40 m-4" style="background-color: #3498db; border: none; color: white;">UNDO</button>
             <div id="rasberryPi" class="component bg-slate-200 rounded-lg text-center">
               <img src="images/pi3dirk.svg" class="w-20 h-20">
               <span class="card-title">Raspberry Pi</span>
@@ -83,7 +81,6 @@
       </div>
     </div>
   </div>
-
   <!-- Coding Area -->
   <div class="drawer-side">
     <label for="my-drawer-4" class="drawer-overlay"></label>
@@ -127,7 +124,6 @@
       <button id="codeSubmit" class="btn btn-primary">Submit</button>
     </pre>
   </div>
-
   <!-- Error Box -->
   <div class="fixed inset-0 items-center justify-center bg-gray-900 bg-opacity-75 hidden" id="errorBox">
     <div class="bg-red-500 p-8 rounded-lg shadow-lg">

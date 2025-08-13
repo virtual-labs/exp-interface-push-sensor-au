@@ -1,69 +1,68 @@
-{
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "Does Raspberry Pi require external hardware for operation?",
-      "answers": {
-        "a": "True",
-        "b": "False"
-      },
-      "correctAnswer": "b",
-      "difficulty": "Beginner"
+[
+  {
+    "question": "What is the role of the resistor connected to the LED in this experiment?",
+    "answers": {
+      "a": "To limit current and prevent LED damage",
+      "b": "To increase LED brightness",
+      "c": "To make the button more responsive",
+      "d": "To convert analog to digital signals"
     },
-    {
-      "question": "How many USB ports are present on the Raspberry Pi 3?",
-      "answers": {
-        "a": "5",
-        "b": "2",
-        "c": "3",
-        "d": "4"
-      },
-      "correctAnswer": "d",
-      "difficulty": "Beginner"
+    "correctAnswer": "a",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In this experiment, how can you change which GPIO pin the LED uses?",
+    "answers": {
+      "a": "By changing the wiring and updating the code",
+      "b": "By pressing the button twice",
+      "c": "By rebooting the Raspberry Pi",
+      "d": "It cannot be changed"
     },
-    {
-      "question": "What is the default operating system used with the Raspberry Pi?",
-      "answers": {
-        "a": "Windows 10",
-        "b": "macOS",
-        "c": "Raspberry Pi OS (formerly Raspbian)",
-        "d": "Linux Mint"
-      },
-      "correctAnswer": "c",
-      "difficulty": "Beginner"
+    "correctAnswer": "a",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "Why is it important to configure the GPIO pin mode in the Python program?",
+    "answers": {
+      "a": "To set the pin as input or output correctly",
+      "b": "To reduce CPU usage",
+      "c": "To improve LED brightness",
+      "d": "To enable Wi-Fi communication"
     },
-    {
-      "question": "Which language is commonly used for programming on the Raspberry Pi?",
-      "answers": {
-        "a": "JavaScript",
-        "b": "Python",
-        "c": "C++",
-        "d": "Java"
-      },
-      "correctAnswer": "b",
-      "difficulty": "Beginner"
+    "correctAnswer": "a",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "When the button is pressed, what happens to the input pin’s voltage?",
+    "answers": {
+      "a": "It stays at 0V",
+      "b": "It changes from LOW to HIGH (or vice versa)",
+      "c": "It starts oscillating",
+      "d": "It turns into an analog signal"
     },
-    {
-      "question": "Which of the following components is typically used for display output on the Raspberry Pi?",
-      "answers": {
-        "a": "HDMI",
-        "b": "VGA",
-        "c": "DisplayPort",
-        "d": "DVI"
-      },
-      "correctAnswer": "a",
-      "difficulty": "Beginner"
+    "correctAnswer": "b",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What will happen if the push button wiring is reversed in the circuit?",
+    "answers": {
+      "a": "The LED will never turn ON",
+      "b": "It may still work depending on connection to ground or VCC",
+      "c": "It will damage the Raspberry Pi",
+      "d": "The button will act as an analog sensor"
     },
-    {
-      "question": "What is the GPIO header used for on the Raspberry Pi?",
-      "answers": {
-        "a": "To connect USB devices",
-        "b": "To connect sensors and external components",
-        "c": "To connect a monitor",
-        "d": "To connect external storage devices"
-      },
-      "correctAnswer": "b",
-      "difficulty": "Intermediate"
-    }
-  ]
-}
+    "correctAnswer": "b",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "How does the Python program continuously check the button state?",
+    "answers": {
+      "a": "By using a loop that reads the GPIO input pin repeatedly",
+      "b": "By sending an interrupt signal to the Pi",
+      "c": "By only reading the pin once at startup",
+      "d": "By using Wi-Fi polling"
+    },
+    "correctAnswer": "a",
+    "difficulty": "Easy"
+  }
+]

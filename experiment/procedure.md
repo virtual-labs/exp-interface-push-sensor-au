@@ -20,6 +20,7 @@
  Enter the GPIO pin number of the button and LED in the code section.  
  The code section can be opened by clicking the **Code** button on the upper-right side of the simulation area.
 
+<div><img src="./images/diagram.jpeg" alt="re-entrance" width='50%'></div>
 
 
 #### **Software Setup**
