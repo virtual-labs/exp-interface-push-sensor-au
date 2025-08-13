@@ -1,0 +1,68 @@
+[
+  {
+    "question": "What is the role of the resistor connected to the LED in this experiment?",
+    "answers": {
+      "a": "To limit current and prevent LED damage",
+      "b": "To increase LED brightness",
+      "c": "To make the button more responsive",
+      "d": "To convert analog to digital signals"
+    },
+    "correctAnswer": "a",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In this experiment, how can you change which GPIO pin the LED uses?",
+    "answers": {
+      "a": "By changing the wiring and updating the code",
+      "b": "By pressing the button twice",
+      "c": "By rebooting the Raspberry Pi",
+      "d": "It cannot be changed"
+    },
+    "correctAnswer": "a",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "Why is it important to configure the GPIO pin mode in the Python program?",
+    "answers": {
+      "a": "To set the pin as input or output correctly",
+      "b": "To reduce CPU usage",
+      "c": "To improve LED brightness",
+      "d": "To enable Wi-Fi communication"
+    },
+    "correctAnswer": "a",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "When the button is pressed, what happens to the input pin’s voltage?",
+    "answers": {
+      "a": "It stays at 0V",
+      "b": "It changes from LOW to HIGH (or vice versa)",
+      "c": "It starts oscillating",
+      "d": "It turns into an analog signal"
+    },
+    "correctAnswer": "b",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What will happen if the push button wiring is reversed in the circuit?",
+    "answers": {
+      "a": "The LED will never turn ON",
+      "b": "It may still work depending on connection to ground or VCC",
+      "c": "It will damage the Raspberry Pi",
+      "d": "The button will act as an analog sensor"
+    },
+    "correctAnswer": "b",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "How does the Python program continuously check the button state?",
+    "answers": {
+      "a": "By using a loop that reads the GPIO input pin repeatedly",
+      "b": "By sending an interrupt signal to the Pi",
+      "c": "By only reading the pin once at startup",
+      "d": "By using Wi-Fi polling"
+    },
+    "correctAnswer": "a",
+    "difficulty": "Easy"
+  }
+]

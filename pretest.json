@@ -1,0 +1,58 @@
+[
+  {
+    "question": "What is the primary function of the push button in this experiment?",
+    "answers": {
+      "a": "To supply power to the Raspberry Pi",
+      "b": "To provide a digital input signal",
+      "c": "To increase LED brightness",
+      "d": "To control the CPU speed"
+    },
+    "correctAnswer": "b",
+    "difficulty": "Easy"
+  },
+
+  {
+    "question": "Why do we use a resistor in series with the LED?",
+    "answers": {
+      "a": "To make the LED glow brighter",
+      "b": "To protect the LED from excess current",
+      "c": "To store charge for the LED",
+      "d": "To keep the button functional"
+    },
+    "correctAnswer": "b",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "When the push button is pressed, what type of signal does the GPIO input pin receive?",
+    "answers": {
+      "a": "Analog voltage",
+      "b": "Digital HIGH or LOW signal",
+      "c": "PWM signal",
+      "d": "Serial communication data"
+    },
+    "correctAnswer": "b",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In the Python code, which library is typically used to control GPIO pins?",
+    "answers": {
+      "a": "os",
+      "b": "time",
+      "c": "RPi.GPIO",
+      "d": "sys"
+    },
+    "correctAnswer": "c",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What will happen if the GPIO pin number in the code does not match the actual LED connection?",
+    "answers": {
+      "a": "The LED will still work",
+      "b": "The LED will not respond",
+      "c": "The Raspberry Pi will shut down",
+      "d": "The button will stop working"
+    },
+    "correctAnswer": "b",
+    "difficulty": "Easy"
+  }
+]
