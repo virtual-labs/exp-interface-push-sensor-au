@@ -4,7 +4,7 @@
 <b>Discipline | <b>Computer Science and Engineering
 :--|:--|
 <b> Lab | <b> Internet of Things (IoT) 
-<b> Experiment|     <b> To interface Push button/Digital sensor (IR/LDR) with Raspberry Pi 
+<b> Experiment|     <b> To interface Push button with Raspberry Pi 
 
 ### About the Experiment 
 
