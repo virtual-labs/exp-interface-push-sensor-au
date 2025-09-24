@@ -1,10 +1,10 @@
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | <b>Computer Science and Engineering
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | <b> Internet of Things (IoT) 
+<b> Experiment|     <b> To interface Push button/Digital sensor (IR/LDR) with Raspberry Pi 
 
 ### About the Experiment 
 
