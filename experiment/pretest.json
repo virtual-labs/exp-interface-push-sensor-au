@@ -1,39 +1,58 @@
-{
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+[
+  {
+    "question": "What is the primary function of the push button in this experiment?",
+    "answers": {
+      "a": "To supply power to the Raspberry Pi",
+      "b": "To provide a digital input signal",
+      "c": "To increase LED brightness",
+      "d": "To control the CPU speed"
     },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+    "correctAnswer": "b",
+    "difficulty": "Easy"
+  },
+
+  {
+    "question": "Why do we use a resistor in series with the LED?",
+    "answers": {
+      "a": "To make the LED glow brighter",
+      "b": "To protect the LED from excess current",
+      "c": "To store charge for the LED",
+      "d": "To keep the button functional"
+    },
+    "correctAnswer": "b",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "When the push button is pressed, what type of signal does the GPIO input pin receive?",
+    "answers": {
+      "a": "Analog voltage",
+      "b": "Digital HIGH or LOW signal",
+      "c": "PWM signal",
+      "d": "Serial communication data"
+    },
+    "correctAnswer": "b",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In the Python code, which library is typically used to control GPIO pins?",
+    "answers": {
+      "a": "os",
+      "b": "time",
+      "c": "RPi.GPIO",
+      "d": "sys"
+    },
+    "correctAnswer": "c",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What will happen if the GPIO pin number in the code does not match the actual LED connection?",
+    "answers": {
+      "a": "The LED will still work",
+      "b": "The LED will not respond",
+      "c": "The Raspberry Pi will shut down",
+      "d": "The button will stop working"
+    },
+    "correctAnswer": "b",
+    "difficulty": "Easy"
+  }
+]

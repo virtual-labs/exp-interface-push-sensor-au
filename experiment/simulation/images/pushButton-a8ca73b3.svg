@@ -1,0 +1,14 @@
+<svg width="21" height="34" viewBox="0 0 21 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1_1_22" fill="white">
+<path d="M0 6H21V27H0V6Z"/>
+</mask>
+<path d="M0 6H21V27H0V6Z" fill="#B0A7A7" fill-opacity="0.63"/>
+<path d="M21 27V27.1H21.1V27H21ZM20.9 6V27H21.1V6H20.9ZM21 26.9H0V27.1H21V26.9Z" fill="black" mask="url(#path-1-inside-1_1_22)"/>
+<rect y="6" width="20" height="20" fill="#D9D9D9"/>
+<path d="M14 16C14 18.2091 12.2091 20 10 20C7.79086 20 6 18.2091 6 16C6 13.7909 7.79086 12 10 12C12.2091 12 14 13.7909 14 16Z" fill="black"/>
+<path id="pressButton" d="M15 17C15 19.2091 13.2091 21 11 21C8.79086 21 7 19.2091 7 17C7 14.7909 8.79086 13 11 13C13.2091 13 15 14.7909 15 17Z" fill="black" fill-opacity="0.54"/>
+<path id="pin1" class="pinConnection" d="M2 8C2 8.27614 2.22386 8.5 2.5 8.5C2.77614 8.5 3 8.27614 3 8H2ZM2 0L2 8H3L3 0L2 0Z" fill="black"/>
+<path id="pin2" class="pinConnection" d="M17 8C17 8.27614 17.2239 8.5 17.5 8.5C17.7761 8.5 18 8.27614 18 8H17ZM17 0V8H18V0L17 0Z" fill="black"/>
+<path id="pin3" class="pinConnection" d="M17 33C17 33.2761 17.2239 33.5 17.5 33.5C17.7761 33.5 18 33.2761 18 33H17ZM17 25V33H18V25H17Z" fill="black"/>
+<path id="pin4" class="pinConnection" d="M2 33C2 33.2761 2.22386 33.5 2.5 33.5C2.77614 33.5 3 33.2761 3 33H2ZM2 25L2 33H3L3 25H2Z" fill="black"/>
+</svg>
