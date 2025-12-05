@@ -10,8 +10,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
     <title>Raspberry Pi LED Button Experiment</title>
-    <script type="module" crossorigin src="js/index-6fc6b658.js"></script>
-    <link rel="stylesheet" href="css/index-469c8f20.css">
+    <script type="module" crossorigin src="js/index-3c99a961.js"></script>
+    <link rel="stylesheet" href="css/index-02a81bad.css">
   </head>
   <body class="drawer drawer-end container-fluid h-full">
     <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
@@ -20,29 +20,29 @@
       <div class="flex flex-col sm:flex-row">
         <div class="w-1/3 m-5 hidden-scroll sm:block bg-base-200 p-6">
           <div id="headline"></div>
+            <button
+    id="infoButton"
+    class="btn btn-circle btn-sm bg-blue-500 text-white hover:bg-blue-600 mb-4"
+    style="text-transform: lowercase; float: right"
+    aria-label="Toggle instructions"
+  >
+    i
+  </button>
           <div id="theory">
-            <h2 class="text-xl font-bold mt-8">Instructions</h2>
-            <ul class="list-disc ml-8 mt-4">
-              <li>
-                Click on the components to start interacting with them in the
-                connection area
-              </li>
-              <li>
-                Hover over the Raspberry Pi connections to get information about
-                various connection pins
-              </li>
-              <li>
-                Double click on various connection points to make connections
-              </li>
-              <li>
-                Double click on the empty space in the connection area to extend
-                and bend wire connections
-              </li>
-            </ul>
+             <div id="instructionsContainer" style="display:none;">
+      <h2 class="text-xl font-bold mt-8">Instructions</h2>
+      <ul class="list-disc ml-8 mt-4">
+        <li>Click on the components to start interacting with them in the connection area</li>
+        <li>Hover over the Raspberry Pi connections to get information about various connection pins</li>
+        <li>Double click on various connection points to make connections</li>
+        <li>Double click on the empty space in the connection area to extend and bend wire connections</li>
+      </ul>
+    </div>
+
             <!-- Procedure -->
             <h2 class="text-xl font-bold mt-8">How to Connect</h2>
             <div class="mt-4">
-              <img src="images/diagram-d7fcc9b8.jpeg" alt="connection_diagram" />
+              <img src="images/diagram.jpeg" alt="connection_diagram" />
             </div>
             <ol
               class="pl-5 mt-5 mb-4 space-y-1 list-decimal list-inside text-xl"
@@ -56,11 +56,11 @@
                 the Raspberry Pi.
               </li>
               <li>
-                Connect any of the GPIO pins of Raspberry Pi to Led's anode pin.
+                Connect any of the GPIO pins of Raspberry Pi to Led's anode pin(longer leg).
               </li>
               <li>
                 The pin requires low voltage, connect any of the resistor pin to
-                Led's cathode
+                Led's cathode(shorter leg).
               </li>
               <li>
                 Connect the other resistor's pin to any of the GND pins of
@@ -110,28 +110,28 @@
               id="rasberryPi"
               class="component bg-slate-200 rounded-lg text-center"
             >
-              <img src="images/pi3dirk-361a3da3.svg" class="w-20 h-20" />
+              <img src="images/pi3dirk.svg" class="w-20 h-20" />
               <span class="card-title">Raspberry Pi</span>
             </div>
             <div
               id="ledlight"
               class="component bg-slate-200 rounded-lg text-center"
             >
-              <img src="images/led-b876e679.svg" class="w-20 h-20" />
+              <img src="images/led.svg" class="w-20 h-20" />
               <span class="card-title">Led bulb</span>
             </div>
             <div
               id="resistor"
               class="component bg-slate-200 rounded-lg text-center"
             >
-              <img src="images/resistor-5294e981.svg" class="w-20 h-20" />
+              <img src="images/resistor.svg" class="w-20 h-20" />
               <span class="card-title">Resistor</span>
             </div>
             <div
               id="pushButton"
               class="component bg-slate-200 rounded-lg text-center"
             >
-              <img src="images/pushButton-012868d3.svg" class="w-20 h-20" />
+              <img src="images/pushButton.svg" class="w-20 h-20" />
               <span class="card-title">Push Button</span>
             </div>
             <!-- Component Description Area -->
@@ -154,7 +154,7 @@
               style="margin-top: 4rem"
             >
               <span
-                class="text-white bg-slate-600 font-serif font-light text-xl border border-solid border-black float-right text-center w-52 h-12 rounded-lg"
+                class="text-white bg-slate-600 font-serif font-light text-xl border border-solid border-black float-left text-center w-52 h-12 rounded-lg"
                 id="displayInfo"
                 >CONNECTOR INFO</span
               >
