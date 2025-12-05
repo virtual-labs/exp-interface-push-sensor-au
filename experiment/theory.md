@@ -1,4 +1,3 @@
-### Theory
 
 #### Introduction
 The Raspberry Pi is a powerful, compact single-board computer that allows users to interact with external hardware components through its General Purpose Input/Output (GPIO) pins. These pins can be configured as inputs or outputs, enabling you to detect signals from components like buttons and control devices like LEDs. This experiment demonstrates how to interface a push button with the Raspberry Pi, allowing it to detect button presses and control an LED based on the input.
@@ -14,7 +13,7 @@ The Raspberry Pi is a small, versatile computer designed for learning and protot
 
 #### 2. **Push Button**
 A push button is a simple mechanical switch that can either be open (not pressed) or closed (pressed). When pressed, it completes the circuit and sends a signal to the Raspberry Pi’s GPIO input pin.
-<div><img src="./images/PushButton.jpg" alt="re-entrance" width='30%'></div>
+<div><img src="./images/PushButton.jpg" alt="re-entrance" width='15%'></div>
 
 #### 3. **LED (Light Emitting Diode)**
 An LED is a semiconductor device that emits light when current flows through it. In this experiment, the LED will indicate the state of the button press, turning on when the button is pressed and off when it is released.
